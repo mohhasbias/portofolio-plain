@@ -53,26 +53,62 @@
         </div>
         <p>I love creating things. I enjoy the process of creating a things. putting full attention to its detail.
         it is so fascinating.</p>
+        <p>I love giving attention to details. I always strive to try the best possible method to accomplish something. I don't to be just work. I want it to be right, and i want it to be better.
+        </p>
       </article>
       <div class="contact-info col-lg-3">
         <ul class="list-inline">
-          <li id="facebook_link"><a href=""><img src="http://pixeldizajn.com/perfectcvwp/wp-content/themes/PerfectCV/img/icons/facebook.png" alt=""></a></li>
-          <li id="twitter_link"><a href=""><img src="http://pixeldizajn.com/perfectcvwp/wp-content/themes/PerfectCV/img/icons/twitter.png" alt="" style=""></a></li>
-          <li id="linkedin_link"><a href=""><img src="http://pixeldizajn.com/perfectcvwp/wp-content/themes/PerfectCV/img/icons/linkedin.png" alt=""></a></li>
-          <li id="googleplus_link"><a href=""><img src="http://pixeldizajn.com/perfectcvwp/wp-content/themes/PerfectCV/img/icons/google-plus.png" alt=""></a></li>
-          <li id="rss_link"><a href="http://pixeldizajn.com/perfectcvwp/feed/"><img src="http://pixeldizajn.com/perfectcvwp/wp-content/themes/PerfectCV/img/icons/rss.png" alt=""></a></li>
+          <li id="facebook_link">
+            <a href="http://www.facebook.com/mohhasbias">
+              <span class="icon-stack">
+                <i class="icon-circle icon-facebook-color icon-stack-base"></i>
+                <i class="icon-facebook icon-light"></i>
+              </span>
+            </a>
+          </li>
+          <li id="twitter_link">
+            <a href="http://www.facebook.com/mohhasbias">
+              <span class="icon-stack">
+                <i class="icon-circle icon-twitter-color icon-stack-base"></i>
+                <i class="icon-twitter icon-light"></i>
+              </span>
+            </a>
+          </li>
+          <li id="linkedin_link">
+            <a href="http://www.facebook.com/mohhasbias">
+              <span class="icon-stack">
+                <i class="icon-circle icon-linkedin-color icon-stack-base"></i>
+                <i class="icon-linkedin icon-light"></i>
+              </span>
+            </a>
+          </li>
+          <li id="googleplus_link">
+            <a href="http://www.facebook.com/mohhasbias">
+              <span class="icon-stack">
+                <i class="icon-circle icon-google-plus-color icon-stack-base"></i>
+                <i class="icon-google-plus icon-light"></i>
+              </span>
+            </a>
+          </li>
+          <li id="rss_link">
+            <a href="http://www.facebook.com/mohhasbias">
+              <span class="icon-stack">
+                <i class="icon-circle icon-rss-color icon-stack-base"></i>
+                <i class="icon-rss icon-light"></i>
+              </span>
+            </a></li>
         </ul>
-        <ul class="list-unstyled">
+        <ul class="icons-ul contact-info">
           <li>
-            <span class="glyphicon glyphicon-phone"></span> 
-            <span class="text-muted">+62 81 231 532 562</span>
+            <i class="icon-li icon-comments-alt icon-2x pull-left"></i>
+            <p class="text-muted">+628 969 499 1125</p>
           </li>
           <li>
-            <span class="glyphicon glyphicon-map-marker"></span> 
+            <i class="icon-li icon-map-marker icon-2x pull-left"></i>
             <span class="text-muted">Surabaya, Indonesia</span>
           </li>
           <li>
-            <span class="glyphicon glyphicon-envelope"></span> 
+            <i class="icon-li icon-envelope icon-2x pull-left"></i>
             <span class="text-muted">mohhasbias@gmail.com</span>
           </li>
         </ul>
