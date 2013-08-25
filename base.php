@@ -1,5 +1,5 @@
 <?php get_template_part('templates/head'); ?>
-<body <?php body_class(); ?> data-spy="scroll" data-target="#navigation">
+<body <?php body_class(); ?> data-spy="scroll" data-target="#navigation" data-offset="100">
 
   <!--[if lt IE 7]><div class="alert"><?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?></div><![endif]-->
 
@@ -41,10 +41,10 @@
     </div>
     <hr>
     <section id="about-me" class="row">
-      <aside class="col-lg-3">
-        <h2 class="section-title text-right">About me</h2>
+      <aside class="section-title col-lg-3">
+        <h2 class="text-right">About me</h2>
       </aside>
-      <article class="col-lg-6">
+      <article class="section-content col-lg-6">
         <div class="pull-left col-lg-3">
           <img class="img-circle" src="/wordpress/assets/img/manten-square.jpg" width=110 alt="profile-picture"/>
         </div>
@@ -77,10 +77,10 @@
     </section>
     <br/>
     <section id="portfolio" class="row">
-      <aside class="col-lg-3">
+      <aside class="section-title col-lg-3">
         <h2 class="text-right">Portfolio</h2>
       </aside>
-      <article class="col-lg-3">
+      <article class="section-content col-lg-3">
         <a href="http://rr.id1945.com/wp" class="thumbnail">
           <img src="/wordpress/assets/img/murahgrosir.png" alt="murahgrosir" width=200>
           <div class="caption text-center">
@@ -91,10 +91,10 @@
     </section>
     <br/>
     <section id="expertise" class="row">
-      <aside class="col-lg-3">
+      <aside class="section-title col-lg-3">
         <h2 class="text-right">Expertise</h2>
       </aside>
-      <div class="col-lg-9">
+      <div class="section-content col-lg-9">
         <article class="row">
           <p class="col-lg-5">
             I have developed wordpress theme for 1 year. In that year i learned a lot about creating wordpress theme. Including creating its widget. I also learning about implementing AJAX in a wordpress theme to reduce load size in effect of faster web experience. I also use jQuery plugins to fasten the development cycle in which i don't have to reinvent the wheel.
@@ -127,10 +127,10 @@
     </section>
     <br/>
     <section id="experience" class="row">
-      <aside class="col-lg-3">
+      <aside class="section-title col-lg-3">
         <h2 class="text-right">Experience</h2>
       </aside>
-      <div class="col-lg-9">
+      <div class="section-content col-lg-9">
         <article class="row">
           <div class="col-lg-3">
             <h3><span class="label label-info">2012 - Present</span></h3>
@@ -180,10 +180,10 @@
     </section>
     <br/>
     <section id="education" class="row">
-      <aside class="col-lg-3">
+      <aside class="section-title col-lg-3">
         <h2 class="text-right">Education</h2>
       </aside>
-      <div class="col-lg-9">
+      <div class="section-content col-lg-9">
         <article class="row">
           <div class="col-lg-3">
             <h3><span class="label label-info">2008 - 2011</span></h3>
@@ -215,7 +215,7 @@
     </section>
     <hr>
     <section id="contact-me" class="row">
-      <aside class="col-lg-3">
+      <aside class="section-title col-lg-3">
         <h2 class="text-right">Contact me</h2>
       </aside>
       <div class="col-lg-6">
