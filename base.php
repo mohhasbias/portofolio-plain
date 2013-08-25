@@ -13,7 +13,6 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <!-- <a class="navbar-brand" href="<?php site_url(); ?>">Moh Hasbi Assidiqi</a> -->
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->

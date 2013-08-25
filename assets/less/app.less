@@ -108,8 +108,9 @@ My Perfect CV
    }
 }
 
+
 body {
-   padding-top: 70px;
+   padding-top: @navbar-height;
 }
 
 #about-me, #portfolio, #expertise, #experience, #education, #contact-me {
@@ -120,8 +121,12 @@ body {
    &:before {
       display: block;
       content: " ";
-      margin-top: -70px;
-      height: 70px;
+      margin-top: -@navbar-height + 10;
+      height: @navbar-height + 10;
       visibility: hidden;
    }
+}
+
+#contact-me {
+   padding-bottom: 350px;
 }
