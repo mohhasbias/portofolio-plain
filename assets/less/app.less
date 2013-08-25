@@ -111,3 +111,17 @@ My Perfect CV
 body {
    padding-top: 70px;
 }
+
+#about-me, #portfolio, #expertise, #experience, #education, #contact-me {
+   // padding-top: 70px;
+   // margin-top: -70px;
+   // -webkit-background-clip: content-box;
+   // background-clip: content-box;
+   &:before {
+      display: block;
+      content: " ";
+      margin-top: -70px;
+      height: 70px;
+      visibility: hidden;
+   }
+}

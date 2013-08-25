@@ -6,29 +6,31 @@
   <div class="wrap container" role="document">
     <div class="row">
       <div class="col-lg-12">
-        <nav id="navigation" class="navbar navbar-default" role="navigation">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="<?php site_url(); ?>">Moh Hasbi Assidiqi</a>
-          </div>
+        <nav id="navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="<?php site_url(); ?>">Moh Hasbi Assidiqi</a>
+            </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#about-me">About me</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#expertise">Expertise</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#education">Education</a></li> 
-              <li><a href="#contact-me">Contact me</a></li>  
-            </ul>
-          </div><!-- /.navbar-collapse -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li> 
+                <li><a href="#contact-me">Contact me</a></li>  
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
         </nav>
       </div>
     </div>
@@ -100,23 +102,22 @@
             I have developed wordpress theme for 1 year. In that year i learned a lot about creating wordpress theme. Including creating its widget. I also learning about implementing AJAX in a wordpress theme to reduce load size in effect of faster web experience. I also use jQuery plugins to fasten the development cycle in which i don't have to reinvent the wheel.
           </p>
           <div class="col-lg-7">
-            <h4 class="text-center"><b>Skill sets</b></h4>
-            <p class="pull-left col-lg-4">Wordpress Theme</p>
+            <p class="text-right pull-left col-lg-4">Wordpress Theme</p>
             <div class="progress">
               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
               </div>
             </div>
-            <p class="pull-left col-lg-4">JQuery Plugin</p>
+            <p class="text-right pull-left col-lg-4">JQuery Plugin</p>
             <div class="progress">
               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
               </div>
             </div>
-            <p class="pull-left col-lg-4">AJAX</p>
+            <p class="text-right pull-left col-lg-4">AJAX</p>
             <div class="progress">
               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
               </div>
             </div>
-            <p class="pull-left col-lg-4">Mobile / Responsive</p>
+            <p class="text-right pull-left col-lg-4">Mobile / Responsive</p>
             <div class="progress">
               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
               </div>
