@@ -53,7 +53,7 @@
         </div>
         <p>I love creating things. I enjoy the process of creating a things. putting full attention to its detail.
         it is so fascinating.</p>
-        <p>I love giving attention to details. I always strive to try the best possible method to accomplish something. I don't to be just work. I want it to be right, and i want it to be better.
+        <p>I love giving attention to details. I always strive to try the best possible method to accomplish something. I don't want to be just work. I want it to be right, and i want it to be better.
         </p>
       </article>
       <div class="contact-info col-lg-3">
@@ -170,48 +170,58 @@
       </aside>
       <div class="section-content col-lg-9">
         <article class="row">
-          <div class="col-lg-3">
-            <h3><span class="label label-info">2012 - Present</span></h3>
+          <div class="col-lg-2">
+            <p class="text-right"><span class="label label-primary">2012 - Present</span></p>
           </div>
-          <header class="col-lg-9">
-            <h3>Trainer of Community College Lecturer</h3>
-            <h4 class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</h4>
+          <header class="col-lg-10">
+            <p>
+              Trainer of Community College Lecturer<br/>
+              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+            </p>
           </header>
         </article>
         <article class="row">
-          <div class="col-lg-3">
-            <h3><span class="label label-info">November 2012</span></h3>
+          <div class="col-lg-2">
+            <p class="text-right"><span class="label label-primary">November 2012</span></p>
           </div>
-          <header class="col-lg-9">
-            <h3>Development of Educational Game for Kids entitled "Citrik" in Cooperation with PLN</h3>
-            <h4 class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</h4>
+          <header class="col-lg-10">
+            <p>
+              Development of Educational Game for Kids entitled "Citrik" in Cooperation with PLN<br/>
+              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+            </p>
           </header>
         </article>
         <article class="row">
-          <div class="col-lg-3">
-            <h3><span class="label label-info">September 2012</span></h3>
+          <div class="col-lg-2">
+            <p class="text-right"><span class="label label-primary">September 2012</span></p>
           </div>
-          <header class="col-lg-9">
-            <h3>Trainer of The Third Country International Training Program</h3>
-            <h4 class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</h4>
+          <header class="col-lg-10">
+            <p>
+              Trainer of The Third Country International Training Program<br/>
+              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+            </p>
           </header>
         </article>
         <article class="row">
-          <div class="col-lg-3">
-            <h3><span class="label label-info">2011 - Present</span></h3>
+          <div class="col-lg-2">
+            <p class="text-right"><span class="label label-primary">2011 - Present</span></p>
           </div>
-          <header class="col-lg-9">
-            <h3>Trainer of Vocational School Teacher</h3>
-            <h4 class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</h4>
+          <header class="col-lg-10">
+            <p>
+              Trainer of Vocational School Teacher<br/>
+              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+            </p>
           </header>
         </article>
         <article class="row">
-          <div class="col-lg-3">
-            <h3><span class="label label-info">2008 - Present</span></h3>
+          <div class="col-lg-2">
+            <p class="text-right"><span class="label label-primary">2008 - Present</span></p>
           </div>
-          <header class="col-lg-9">
-            <h3>Lecturer of Multimedia Broadcasting Technology Department</h3>
-            <h4 class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</h4>
+          <header class="col-lg-10">
+            <p>
+              Lecturer of Multimedia Broadcasting Technology Department<br/>
+              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+            </p>
           </header>
         </article>
       </div>
@@ -223,30 +233,36 @@
       </aside>
       <div class="section-content col-lg-9">
         <article class="row">
-          <div class="col-lg-3">
-            <h3><span class="label label-info">2008 - 2011</span></h3>
+          <div class="col-lg-2">
+            <p class="text-right"><span class="label label-primary">2008 - 2011</span></p>
           </div>
-          <header class="col-lg-9">
-            <h3>Institut Teknologi Sepuluh Nopember</h3>
-            <h4 class="text-muted">Teknik Elektro - Telematika</h4>
+          <header class="col-lg-10">
+            <p>
+              Institut Teknologi Sepuluh Nopember<br/>
+              <span class="text-muted">Teknik Elektro - Telematika</span>
+            </p>
           </header>
         </article>
         <article class="row">
-          <div class="col-lg-3">
-            <h3><span class="label label-info">2003 - 2008</span></h3>
+          <div class="col-lg-2">
+            <p class="text-right"><span class="label label-primary">2003 - 2008</span></p>
           </div>
-          <header class="col-lg-9">
-            <h3>Institut Teknologi Sepuluh Nopember</h3>
-            <h4 class="text-muted">Teknik Informatika</h4>
+          <header class="col-lg-10">
+            <p>
+              Institut Teknologi Sepuluh Nopember<br/>
+              <span class="text-muted">Teknik Informatika</span>
+            </p>
           </header>
         </article>
         <article class="row">
-          <div class="col-lg-3">
-            <h3><span class="label label-info">2000 - 2003</span></h3>
+          <div class="col-lg-2">
+            <p class="text-right"><span class="label label-primary">2000 - 2003</span></p>
           </div>
-          <header class="col-lg-9">
-            <h3>SMU Negeri 1 Jember</h3>
-            <h4 class="text-muted">Jurusan IPA</h4>
+          <header class="col-lg-10">
+            <p>
+              SMU Negeri 1 Jember<br/>
+              <span class="text-muted">Jurusan IPA</span>
+            </p>
           </header>
         </article>
       </div>
