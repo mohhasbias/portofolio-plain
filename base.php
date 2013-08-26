@@ -135,30 +135,42 @@
       </aside>
       <div class="section-content col-lg-9">
         <article class="row">
-          <p class="col-lg-5">
+          <p class="col-lg-7">
             I have developed wordpress theme for 1 year. In that year i learned a lot about creating wordpress theme. Including creating its widget. I also learning about implementing AJAX in a wordpress theme to reduce load size in effect of faster web experience. I also use jQuery plugins to fasten the development cycle in which i don't have to reinvent the wheel.
           </p>
-          <div class="col-lg-7">
-            <p class="text-right pull-left col-lg-4">Wordpress Theme</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-              </div>
-            </div>
-            <p class="text-right pull-left col-lg-4">JQuery Plugin</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-              </div>
-            </div>
-            <p class="text-right pull-left col-lg-4">AJAX</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-              </div>
-            </div>
-            <p class="text-right pull-left col-lg-4">Mobile / Responsive</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-              </div>
-            </div>
+          <div class="col-lg-5">
+            <p class="text-right pull-left col-lg-6">Wordpress Theme</p>
+            <ul class="list-inline">
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star-empty icon-large"></i></li>
+            </ul>
+            <p class="text-right pull-left col-lg-6">JQuery Plugin</p>
+            <ul class="list-inline">
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star-empty icon-large"></i></li>
+            </ul>
+            <p class="text-right pull-left col-lg-6">AJAX</p>
+            <ul class="list-inline">
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star-empty icon-large"></i></li>
+              <li><i class="icon-star-empty icon-large"></i></li>
+            </ul>
+            <p class="text-right pull-left col-lg-6">Mobile / Responsive</p>
+            <ul class="list-inline">
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star icon-large"></i></li>
+              <li><i class="icon-star-empty icon-large"></i></li>
+              <li><i class="icon-star-empty icon-large"></i></li>
+              <li><i class="icon-star-empty icon-large"></i></li>
+            </ul>
           </div>
         </article>
       </div>
