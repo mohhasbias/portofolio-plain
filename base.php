@@ -19,8 +19,8 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
           <li><a href="#about-me">About me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#education">Education</a></li> 
           <li><a href="#contact-me">Contact me</a></li>  
@@ -67,7 +67,7 @@
             </a>
           </li>
           <li id="twitter_link">
-            <a href="http://www.facebook.com/mohhasbias">
+            <a href="http://www.twitter.com/m_hasbi_as">
               <span class="icon-stack">
                 <i class="icon-circle icon-twitter-color icon-stack-base"></i>
                 <i class="icon-twitter icon-light"></i>
@@ -75,7 +75,7 @@
             </a>
           </li>
           <li id="linkedin_link">
-            <a href="http://www.facebook.com/mohhasbias">
+            <a href="http://www.linkedin.com/pub/moh-hasbi-assidiqi/29/a3/995">
               <span class="icon-stack">
                 <i class="icon-circle icon-linkedin-color icon-stack-base"></i>
                 <i class="icon-linkedin icon-light"></i>
@@ -105,28 +105,14 @@
           </li>
           <li>
             <i class="icon-li icon-map-marker icon-2x pull-left"></i>
-            <span class="text-muted">Surabaya, Indonesia</span>
+            <p class="text-muted">Surabaya, Indonesia</p>
           </li>
           <li>
             <i class="icon-li icon-envelope icon-2x pull-left"></i>
-            <span class="text-muted">mohhasbias@gmail.com</span>
+            <p class="text-muted">mohhasbias@gmail.com</p>
           </li>
         </ul>
       </div>
-    </section>
-    <br/>
-    <section id="portfolio" class="row">
-      <aside class="section-title col-lg-3">
-        <h2 class="text-right">Portfolio</h2>
-      </aside>
-      <article class="section-content col-lg-3">
-        <a href="http://rr.id1945.com/wp" class="thumbnail">
-          <img src="/wordpress/assets/img/murahgrosir.png" alt="murahgrosir" width=200>
-          <div class="caption text-center">
-            <p>Online Store Themes</p>
-          </div>
-        </a>
-      </article>      
     </section>
     <br/>
     <section id="expertise" class="row">
@@ -174,6 +160,20 @@
           </div>
         </article>
       </div>
+    </section>
+    <br/>
+    <section id="portfolio" class="row">
+      <aside class="section-title col-lg-3">
+        <h2 class="text-right">Portfolio</h2>
+      </aside>
+      <article class="section-content col-lg-3">
+        <a href="http://rr.id1945.com/wp" class="thumbnail">
+          <img src="/wordpress/assets/img/murahgrosir.png" alt="murahgrosir" width=100%>
+          <div class="caption text-center">
+            <p>Online Store Themes</p>
+          </div>
+        </a>
+      </article>      
     </section>
     <br/>
     <section id="experience" class="row">
