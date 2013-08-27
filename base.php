@@ -18,12 +18,12 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#about-me">About me</a></li>
-          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#about-me">Tentang saya</a></li>
+          <li><a href="#expertise">Keahlian</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li> 
-          <li><a href="#contact-me">Contact me</a></li>  
+          <li><a href="#experience">Pengalaman</a></li>
+          <li><a href="#education">Pendidikan</a></li> 
+          <li><a href="#contact-me">Hubungi saya</a></li>  
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
@@ -37,7 +37,7 @@
     </div>
     <div class="jumbotron">
       <h1 class="text-center">Moh Hasbi Assidiqi</h1>
-      <p class="text-center">Web Developer</p>
+      <p class="text-center">Pengrajin Web</p>
       <h2 class="text-center">
         <small>Membuat Indonesia lebih baik melalui web yang sederhana dan mudah digunakan.</small>
       </h2>
@@ -45,16 +45,14 @@
     <hr>
     <section id="about-me" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">About me</h2>
+        <h2 class="text-right">Tentang saya</h2>
       </aside>
       <article class="section-content col-lg-6">
         <div class="pull-left col-lg-3">
           <img class="img-circle" src="/wordpress/assets/img/manten-square.jpg" width=110 alt="profile-picture"/>
         </div>
-        <p>I love creating things. I enjoy the process of creating a things. putting full attention to its detail.
-        it is so fascinating.</p>
-        <p>I love giving attention to details. I always strive to try the best possible method to accomplish something. I don't want to be just work. I want it to be right, and i want it to be better.
-        </p>
+        <p>Saya suka membuat sesuatu. Saya menikmati proses pembuatan sesuatu. Memberikan perhatian lebih untuk setiap detilnya. Amat sangat menyenangkan bagi saya.</p>
+        <p>Saya benar-benar ketagihan dengan detil. Saya selalu berusaha menggunakan cara terbaik yang mungkin untuk membuat sesuatu. Saya tidak mau hanya sekedar jadi. Saya mau sesuatunya jadi dengan baik, dan saya ingin sesuatunya jadi lebih baik.</p>
       </article>
       <div class="contact-info col-lg-3">
         <ul class="list-inline">
@@ -83,7 +81,7 @@
             </a>
           </li>
           <li id="googleplus_link">
-            <a href="http://www.facebook.com/mohhasbias">
+            <a href="#">
               <span class="icon-stack">
                 <i class="icon-circle icon-google-plus-color icon-stack-base"></i>
                 <i class="icon-google-plus icon-light"></i>
@@ -91,7 +89,7 @@
             </a>
           </li>
           <li id="rss_link">
-            <a href="http://www.facebook.com/mohhasbias">
+            <a href="#">
               <span class="icon-stack">
                 <i class="icon-circle icon-rss-color icon-stack-base"></i>
                 <i class="icon-rss icon-light"></i>
@@ -117,14 +115,14 @@
     <br/>
     <section id="expertise" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Expertise</h2>
+        <h2 class="text-right">Keahlian</h2>
       </aside>
       <div class="section-content col-lg-9">
         <article class="row">
-          <p class="col-lg-7">
-            I have developed wordpress theme for 1 year. In that year i learned a lot about creating wordpress theme. Including creating its widget. I also learning about implementing AJAX in a wordpress theme to reduce load size in effect of faster web experience. I also use jQuery plugins to fasten the development cycle in which i don't have to reinvent the wheel.
+          <p class="col-lg-6">
+            Saya sudah membuat tema wordpress selama 1 tahun. Selama waktu tersebut, saya belajar banyak tentang pembuatan tema wordpress meliputi pembuatan widget-nya. Saya juga belajar tentang implementasi AJAX pada tema wordpress yang digunakan untuk mereduksi ukuran situs sehingga lebih cepat dibuka oleh user. Saya juga menggunakan banyak plugin JQuery untuk mempercepat proses pembuatan dimana saya tidak perlu membuat semuanya dari nol.
           </p>
-          <div class="col-lg-5">
+          <div class="col-lg-6">
             <p class="text-right pull-left col-lg-6">Wordpress Theme</p>
             <ul class="list-inline">
               <li><i class="icon-star icon-large"></i></li>
@@ -170,7 +168,7 @@
         <a href="http://rr.id1945.com/wp" class="thumbnail">
           <img src="/wordpress/assets/img/murahgrosir.png" alt="murahgrosir" width=100%>
           <div class="caption text-center">
-            <p>Online Store Themes</p>
+            <p>Toko Online</p>
           </div>
         </a>
       </article>      
@@ -178,17 +176,17 @@
     <br/>
     <section id="experience" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Experience</h2>
+        <h2 class="text-right">Pengalaman</h2>
       </aside>
       <div class="section-content col-lg-9">
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">2012 - Present</span></p>
+            <p class="text-right"><span class="label label-primary">2012 - Sekarang</span></p>
           </div>
           <header class="col-lg-10">
             <p>
-              Trainer of Community College Lecturer<br/>
-              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+              Pengajar Pelatihan Dosen Akademi Komunitas<br/>
+              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
             </p>
           </header>
         </article>
@@ -198,8 +196,8 @@
           </div>
           <header class="col-lg-10">
             <p>
-              Development of Educational Game for Kids entitled "Citrik" in Cooperation with PLN<br/>
-              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+              Pembuatan Game Edukasi untuk Anak-Anak Berjudul "Citrik" sebagai Kerjasama dengan PLN<br/>
+              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
             </p>
           </header>
         </article>
@@ -209,30 +207,30 @@
           </div>
           <header class="col-lg-10">
             <p>
-              Trainer of The Third Country International Training Program<br/>
-              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+              Pengajar pada Pelatihan International untuk Negara Ketiga sebagai Kerjasama dengan JICA<br/>
+              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
             </p>
           </header>
         </article>
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">2011 - Present</span></p>
+            <p class="text-right"><span class="label label-primary">2011 - Sekarang</span></p>
           </div>
           <header class="col-lg-10">
             <p>
-              Trainer of Vocational School Teacher<br/>
-              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+              Pengajar pada Pelatihan untuk Guru SMK<br/>
+              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
             </p>
           </header>
         </article>
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">2008 - Present</span></p>
+            <p class="text-right"><span class="label label-primary">2008 - Sekarang</span></p>
           </div>
           <header class="col-lg-10">
             <p>
-              Lecturer of Multimedia Broadcasting Technology Department<br/>
-              <span class="text-muted">Electronic Engineering Polytechnic Institute of Surabaya</span>
+              Dosen Program Studi Teknologi Multimedia Broadcasting<br/>
+              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
             </p>
           </header>
         </article>
@@ -241,7 +239,7 @@
     <br/>
     <section id="education" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Education</h2>
+        <h2 class="text-right">Pendidikan</h2>
       </aside>
       <div class="section-content col-lg-9">
         <article class="row">
@@ -282,18 +280,18 @@
     <hr>
     <section id="contact-me" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Contact me</h2>
+        <h2 class="text-right">Hubungi saya</h2>
       </aside>
       <div class="col-lg-6">
         <form role="form">
-          <input type="text" class="form-control" name="name" placeholder="Name">
+          <input type="text" class="form-control" name="name" placeholder="Nama">
           <br/>
           <input type="email" class="form-control" name="email" placeholder="Email">
           <br/>
-          <textarea rows="8" class="form-control" name="message" placeholder="Message"></textarea>
+          <textarea rows="8" class="form-control" name="message" placeholder="Pesan"></textarea>
           <input type="hidden" name="recipient_mail" value="mohhasbias@gmail.com">
           </br>
-          <input class="btn btn-primary" name="submit" type="submit" value="SEND THE MESSAGE">
+          <input class="btn btn-primary" name="submit" type="submit" value="KIRIM PESAN">
         </form>
       </div>
     </section>
