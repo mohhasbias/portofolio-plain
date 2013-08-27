@@ -39,10 +39,10 @@
 // Typography
 // -------------------------
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  "Droid sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       "Arvo", Georgia, "Times New Roman", Times, serif;
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
-@font-family-base:        @font-family-sans-serif;
+@font-family-base:        @font-family-serif;
 
 @font-size-base:          14px;
 @font-size-large:         ceil(@font-size-base * 1.25); // ~18px
@@ -51,7 +51,7 @@
 @line-height-base:        1.428571429; // 20/14
 @line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
 
-@headings-font-family:    @font-family-base;
+@headings-font-family:    @font-family-sans-serif;
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
 
@@ -352,7 +352,7 @@
 // Jumbotron
 // -------------------------
 
-@jumbotron-padding:              0px;
+@jumbotron-padding:              10px;
 @jumbotron-color:                inherit;
 // @jumbotron-bg:                   @gray-lighter;
 @jumbotron-bg:					 transparent;
