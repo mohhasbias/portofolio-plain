@@ -52,7 +52,6 @@
           <img class="img-circle" src="/wordpress/assets/img/manten-square.jpg" width=110 alt="profile-picture"/>
         </div>
         <p>Saya suka membuat sesuatu. Saya menikmati proses pembuatan sesuatu. Memberikan perhatian lebih untuk setiap detilnya. Amat sangat menyenangkan bagi saya.</p>
-        <p>Saya benar-benar ketagihan dengan detil. Saya selalu berusaha menggunakan cara terbaik yang mungkin untuk membuat sesuatu. Saya tidak mau hanya sekedar jadi. Saya mau sesuatunya jadi dengan baik, dan saya ingin sesuatunya jadi lebih baik.</p>
       </article>
       <div class="contact-info col-lg-3">
         <ul class="list-inline">
@@ -181,7 +180,7 @@
       <div class="section-content col-lg-9">
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">2012 - Sekarang</span></p>
+            <p><span class="label label-primary">2012 - Sekarang</span></p>
           </div>
           <header class="col-lg-10">
             <p>
@@ -192,7 +191,7 @@
         </article>
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">November 2012</span></p>
+            <p><span class="label label-primary">November 2012</span></p>
           </div>
           <header class="col-lg-10">
             <p>
@@ -203,7 +202,7 @@
         </article>
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">September 2012</span></p>
+            <p><span class="label label-primary">September 2012</span></p>
           </div>
           <header class="col-lg-10">
             <p>
@@ -214,7 +213,7 @@
         </article>
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">2011 - Sekarang</span></p>
+            <p><span class="label label-primary">2011 - Sekarang</span></p>
           </div>
           <header class="col-lg-10">
             <p>
@@ -225,7 +224,7 @@
         </article>
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">2008 - Sekarang</span></p>
+            <p><span class="label label-primary">2008 - Sekarang</span></p>
           </div>
           <header class="col-lg-10">
             <p>
@@ -244,7 +243,7 @@
       <div class="section-content col-lg-9">
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">2008 - 2011</span></p>
+            <p><span class="label label-primary">2008 - 2011</span></p>
           </div>
           <header class="col-lg-10">
             <p>
@@ -255,7 +254,7 @@
         </article>
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">2003 - 2008</span></p>
+            <p><span class="label label-primary">2003 - 2008</span></p>
           </div>
           <header class="col-lg-10">
             <p>
@@ -266,7 +265,7 @@
         </article>
         <article class="row">
           <div class="col-lg-2">
-            <p class="text-right"><span class="label label-primary">2000 - 2003</span></p>
+            <p><span class="label label-primary">2000 - 2003</span></p>
           </div>
           <header class="col-lg-10">
             <p>
