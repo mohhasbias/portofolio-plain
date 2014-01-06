@@ -45,7 +45,7 @@
     <hr>
     <section id="about-me" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Tentang saya</h2>
+        <h2>Tentang saya</h2>
       </aside>
       <article class="section-content col-lg-6">
         <div class="pull-left col-lg-3">
@@ -114,7 +114,7 @@
     <br/>
     <section id="expertise" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Keahlian</h2>
+        <h2>Keahlian</h2>
       </aside>
       <div class="section-content col-lg-9">
         <article class="row">
@@ -161,7 +161,7 @@
     <br/>
     <section id="portfolio" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Portfolio</h2>
+        <h2>Portfolio</h2>
       </aside>
       <article class="section-content col-lg-3">
         <a href="http://rr.id1945.com/wp" class="thumbnail">
@@ -175,7 +175,7 @@
     <br/>
     <section id="experience" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Pengalaman</h2>
+        <h2>Pengalaman</h2>
       </aside>
       <div class="section-content col-lg-9">
         <article class="row">
@@ -238,7 +238,7 @@
     <br/>
     <section id="education" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Pendidikan</h2>
+        <h2>Pendidikan</h2>
       </aside>
       <div class="section-content col-lg-9">
         <article class="row">
@@ -279,7 +279,7 @@
     <hr>
     <section id="contact-me" class="row">
       <aside class="section-title col-lg-3">
-        <h2 class="text-right">Hubungi saya</h2>
+        <h2>Hubungi saya</h2>
       </aside>
       <div class="col-lg-6">
         <form role="form">

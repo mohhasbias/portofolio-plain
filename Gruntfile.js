@@ -53,7 +53,7 @@ module.exports = function(grunt) {
         files: [
           'assets/less/*.less',
           'assets/less/bootstrap/*.less',
-	  'assets/less/font-awesome/*.less'
+    'assets/less/font-awesome/*.less'
         ],
         tasks: ['recess', 'version']
       },
@@ -62,6 +62,16 @@ module.exports = function(grunt) {
           '<%= jshint.all %>'
         ],
         tasks: ['jshint', 'uglify', 'version']
+      },
+      php: {
+        files: [
+          '*.php',
+          'templates/*.php',
+          'lib/*.php'
+        ]
+      },
+      options: {
+        livereload: true
       }
     },
     clean: {
