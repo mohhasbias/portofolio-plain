@@ -35,12 +35,16 @@
         
       </div>
     </div>
-    <div class="jumbotron">
-      <h1 class="text-center">Moh Hasbi Assidiqi</h1>
-      <p class="text-center">Pengrajin Web</p>
-      <h2 class="text-center">
-        <small>Membuat Indonesia lebih baik melalui web yang sederhana dan mudah digunakan.</small>
-      </h2>
+    <div class="page-header">
+      <h1 class="text-center">
+        Moh Hasbi Assidiqi
+      </h1>
+      <p class="text-center lead">
+        Pengrajin Software
+      </p>
+      <p class="text-center text-muted">
+        <em>Membuat Indonesia lebih baik melalui software yang sederhana dan mudah digunakan</em>
+      </p>
     </div>
     <hr>
     <section id="about-me" class="row">
