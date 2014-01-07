@@ -46,7 +46,6 @@
         <em>Membuat Indonesia lebih baik melalui software yang sederhana dan mudah digunakan</em>
       </p>
     </div>
-    <hr>
     <section id="about-me" class="row">
       <aside class="section-title col-lg-3">
         <h2>Tentang saya</h2>
