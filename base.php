@@ -32,29 +32,29 @@
   <div class="wrap container" role="document">
     <div class="row">
       <div class="col-lg-12">
-        
+        <div class="page-header">
+          <h1 class="text-center">
+            <?php echo of_get_option('full_name'); ?>
+          </h1>
+          <p class="text-center lead">
+            <?php echo of_get_option('main_occupation'); ?>
+          </p>
+          <p class="text-center text-muted">
+            <em><?php echo of_get_option('motto'); ?></em>
+          </p>
+        </div>
       </div>
     </div>
-    <div class="page-header">
-      <h1 class="text-center">
-        Moh Hasbi Assidiqi
-      </h1>
-      <p class="text-center lead">
-        Pengrajin Software
-      </p>
-      <p class="text-center text-muted">
-        <em>Membuat Indonesia lebih baik melalui software yang sederhana dan mudah digunakan</em>
-      </p>
-    </div>
+    
     <section id="about-me" class="row">
       <aside class="section-title col-lg-3">
         <h2>Tentang saya</h2>
       </aside>
       <article class="section-content col-lg-6">
         <div class="pull-left col-lg-3">
-          <img class="img-circle" src="/wordpress/assets/img/manten-square.jpg" width=110 alt="profile-picture"/>
+          <img class="img-circle" src="<?php echo of_get_option('profile_picture'); ?>" width=110 alt="profile-picture"/>
         </div>
-        <p>Saya suka membuat sesuatu. Saya menikmati proses pembuatan sesuatu. Memberikan perhatian lebih untuk setiap detilnya. Amat sangat menyenangkan bagi saya.</p>
+        <p><?php echo of_get_option('about_me'); ?></p>
       </article>
       <div class="contact-info col-lg-3">
         <ul class="list-inline">
