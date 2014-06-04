@@ -167,21 +167,25 @@
     <br/>
     <?php
         $work_list = array();
-        $work_list[0]["work_url"] = "http://rr.id1945.com/wp";
-        $work_list[0]["image_url"] = get_bloginfo('template_directory') . "/assets/img/murahgrosir.png";
-        $work_list[0]["image_alt"] = "murahgrosir";
-        $work_list[0]["description"] = 
-          "Redesign <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
-          "Desktop version (HTML, CSS, JS)<br/>" .
-          "Highlight: Lazy Load Image Slider";
+        $work_list[0] = array(
+            'url' => 'http://rr.id1945.com/wp',
+            'img_src' => get_bloginfo('template_directory') . '/assets/img/murahgrosir.png',
+            'img_alt' => 'murahgrosir desktop',
+            'description' => 
+                "Redesign <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
+                "Desktop version (HTML, CSS, JS)<br/>" .
+                "Highlight: Lazy Load Image Slider"
+          );
 
-        $work_list[1]["work_url"] = "http://rr.id1945.com/wp";
-        $work_list[1]["image_url"] = get_bloginfo('template_directory') . "/assets/img/murahgrosir-smartphone.png";
-        $work_list[1]["image_alt"] = "murahgrosir-smartphone";
-        $work_list[1]["description"] = 
-          "Redesign <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
-          "Smartphone version (HTML, CSS, JS)<br/>" .
-          "Highlight: Foundation 5";        
+        $work_list[1] = array(
+          'url' => 'http://rr.id1945.com/wp',
+            'img_src' => get_bloginfo('template_directory') . '/assets/img/murahgrosir-smartphone.png',
+            'img_alt' => 'murahgrosir smartphone',
+            'description' => 
+                "Redesign <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
+                "Smartphone version (HTML, CSS, JS)<br/>" .
+                "Highlight: Foundation 5"
+          );     
       ?>
     <section id="portfolio" class="row">
       <aside class="section-title col-lg-3">
@@ -189,8 +193,8 @@
       </aside>
       <?php for($i = 0; $i < count($work_list); $i++): ?>
         <article class="section-content col-lg-3">
-          <a href="<?php echo $work_list[$i]['work_url']; ?>" class="thumbnail">
-            <img src="<?php echo $work_list[$i]['image_url']; ?>" alt="<?php echo $work_list[$i]['image_alt']; ?>"/>
+          <a href="<?php echo $work_list[$i]['url']; ?>" class="thumbnail">
+            <img src="<?php echo $work_list[$i]['img_src']; ?>" alt="<?php echo $work_list[$i]['img_alt']; ?>"/>
           </a>
           <div class="caption text-center">
             <p>
