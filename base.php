@@ -201,6 +201,32 @@
       <?php endfor; ?>     
     </section>
     <br/>
+    <?php
+      $tuts_list = array();
+      $tuts_list[0] = array(
+        'url' => '#',
+        'img_src' => '',
+        'img_alt' => 'Flash AS3 Memory Card Game',
+        'description' => 'Membuat memory card game menggunakan Flash AS3'
+        );
+    ?>
+    <section id="tutorials" class="row">
+      <aside class="section-title col-lg-3">
+        <h2>Tutorials</h2>
+      </aside>
+      <?php for($i = 0; $i < count($tuts_list); $i++): ?>
+        <article class="section-content col-lg-3">
+          <a href="<?php echo $tuts_list[0]['url']; ?>" class="thumbnail">
+          <img src="<?php echo $tuts_list[0]['img_src']; ?>" alt="<?php echo $tuts_list[0]['img_alt']; ?>"/>
+          </a>
+          <div class="caption text-center">
+            <p>
+              <?php echo $tuts_list[0]['description']; ?>
+            </p>  
+          </div>
+        </article>  
+      <?php endfor; ?>
+    </section>
     <section id="experience" class="row">
       <aside class="section-title col-lg-3">
         <h2>Pengalaman</h2>
