@@ -103,7 +103,7 @@ My Perfect CV
 }
 
 .section-content {   
-   border-left: solid 1px @gray-lighter;
+   //border-left: solid 1px @gray-lighter;
    article:first-child h3 {
       margin-top: 5px;
    }
@@ -132,6 +132,13 @@ body {
       margin-top: -@navbar-height + 10;
       height: @navbar-height + 10;
       visibility: hidden;
+   }
+}
+
+#portfolio {
+   .thumbnail>img {
+      max-width: 252px;
+      max-height: 212px;
    }
 }
 

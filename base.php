@@ -122,7 +122,10 @@
       <div class="section-content col-lg-9">
         <article class="row">
           <p class="col-lg-6">
-            Saya sudah membuat tema wordpress selama 1 tahun. Selama waktu tersebut, saya belajar banyak tentang pembuatan tema wordpress meliputi pembuatan widget-nya. Saya juga belajar tentang implementasi AJAX pada tema wordpress yang digunakan untuk mereduksi ukuran situs sehingga lebih cepat dibuka oleh user. Saya juga menggunakan banyak plugin JQuery untuk mempercepat proses pembuatan dimana saya tidak perlu membuat semuanya dari nol.
+            Alhamdulillah, saya sudah membuat tema wordpress selama 1 tahun. 
+            Selama waktu tersebut, saya belajar banyak tentang pembuatan tema wordpress meliputi pembuatan widget-nya. 
+            Saya juga belajar tentang implementasi AJAX pada tema wordpress yang digunakan untuk mereduksi ukuran situs sehingga lebih cepat dibuka oleh user. 
+            Saya juga menggunakan banyak plugin JQuery untuk mempercepat proses pembuatan dimana saya tidak perlu membuat semuanya dari nol.
           </p>
           <div class="col-lg-6">
             <p class="text-right pull-left col-lg-6">Wordpress Theme</p>
@@ -162,18 +165,40 @@
       </div>
     </section>
     <br/>
+    <?php
+        $work_list = array();
+        $work_list[0]["work_url"] = "http://rr.id1945.com/wp";
+        $work_list[0]["image_url"] = get_bloginfo('template_directory') . "/assets/img/murahgrosir.png";
+        $work_list[0]["image_alt"] = "murahgrosir";
+        $work_list[0]["description"] = 
+          "Redesign <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
+          "Desktop version (HTML, CSS, JS)<br/>" .
+          "Highlight: Lazy Load Image Slider";
+
+        $work_list[1]["work_url"] = "http://rr.id1945.com/wp";
+        $work_list[1]["image_url"] = get_bloginfo('template_directory') . "/assets/img/murahgrosir-smartphone.png";
+        $work_list[1]["image_alt"] = "murahgrosir-smartphone";
+        $work_list[1]["description"] = 
+          "Redesign <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
+          "Smartphone version (HTML, CSS, JS)<br/>" .
+          "Highlight: Foundation 5";        
+      ?>
     <section id="portfolio" class="row">
       <aside class="section-title col-lg-3">
         <h2>Portfolio</h2>
       </aside>
-      <article class="section-content col-lg-3">
-        <a href="http://rr.id1945.com/wp" class="thumbnail">
-          <img src="/wordpress/assets/img/murahgrosir.png" alt="murahgrosir" width=100%>
+      <?php for($i = 0; $i < count($work_list); $i++): ?>
+        <article class="section-content col-lg-3">
+          <a href="<?php echo $work_list[$i]['work_url']; ?>" class="thumbnail">
+            <img src="<?php echo $work_list[$i]['image_url']; ?>" alt="<?php echo $work_list[$i]['image_alt']; ?>"/>
+          </a>
           <div class="caption text-center">
-            <p>Toko Online</p>
+            <p>
+              <?php echo $work_list[$i]['description']; ?>
+            </p>
           </div>
-        </a>
-      </article>      
+        </article> 
+      <?php endfor; ?>     
     </section>
     <br/>
     <section id="experience" class="row">
