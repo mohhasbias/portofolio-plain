@@ -130,35 +130,43 @@
           <div class="col-lg-6">
             <p class="text-right pull-left col-lg-6">Wordpress Theme</p>
             <ul class="list-inline">
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star-empty icon-large"></i></li>
+              <?php $num_star = 3; ?>
+              <?php for($i = 0; $i < $num_star; $i++): ?>
+                <li><i class="icon-star icon-large"></i></li>
+              <?php endfor; ?>
+              <?php for($i = 0; $i < 5 - $num_star; $i++): ?>
+                <li><i class="icon-star-empty icon-large"></i></li>
+              <?php endfor; ?>
             </ul>
-            <p class="text-right pull-left col-lg-6">JQuery Plugin</p>
+            <p class="text-right pull-left col-lg-6">jQuery Plugin</p>
             <ul class="list-inline">
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star-empty icon-large"></i></li>
+              <?php $num_star = 3; ?>
+              <?php for($i = 0; $i < $num_star; $i++): ?>
+                <li><i class="icon-star icon-large"></i></li>
+              <?php endfor; ?>
+              <?php for($i = 0; $i < 5 - $num_star; $i++): ?>
+                <li><i class="icon-star-empty icon-large"></i></li>
+              <?php endfor; ?>
             </ul>
-            <p class="text-right pull-left col-lg-6">AJAX</p>
+            <p class="text-right pull-left col-lg-6">jQuery AJAX</p>
             <ul class="list-inline">
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star-empty icon-large"></i></li>
-              <li><i class="icon-star-empty icon-large"></i></li>
+              <?php $num_star = 3; ?>
+              <?php for($i = 0; $i < $num_star; $i++): ?>
+                <li><i class="icon-star icon-large"></i></li>
+              <?php endfor; ?>
+              <?php for($i = 0; $i < 5 - $num_star; $i++): ?>
+                <li><i class="icon-star-empty icon-large"></i></li>
+              <?php endfor; ?>
             </ul>
             <p class="text-right pull-left col-lg-6">Mobile / Responsive</p>
             <ul class="list-inline">
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star icon-large"></i></li>
-              <li><i class="icon-star-empty icon-large"></i></li>
-              <li><i class="icon-star-empty icon-large"></i></li>
-              <li><i class="icon-star-empty icon-large"></i></li>
+              <?php $num_star = 3; ?>
+              <?php for($i = 0; $i < $num_star; $i++): ?>
+                <li><i class="icon-star icon-large"></i></li>
+              <?php endfor; ?>
+              <?php for($i = 0; $i < 5 - $num_star; $i++): ?>
+                <li><i class="icon-star-empty icon-large"></i></li>
+              <?php endfor; ?>
             </ul>
           </div>
         </article>
