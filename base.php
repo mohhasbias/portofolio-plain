@@ -119,57 +119,50 @@
       <aside class="section-title col-lg-3">
         <h2>Keahlian</h2>
       </aside>
-      <div class="section-content col-lg-9">
-        <article class="row">
-          <p class="col-lg-6">
+      <div class="section-content col-lg-6">
+        <article>
+          <p>
             Alhamdulillah, saya sudah membuat tema wordpress selama 1 tahun. 
             Selama waktu tersebut, saya belajar banyak tentang pembuatan tema wordpress meliputi pembuatan widget-nya. 
             Saya juga belajar tentang implementasi AJAX pada tema wordpress yang digunakan untuk mereduksi ukuran situs sehingga lebih cepat dibuka oleh user. 
             Saya juga menggunakan banyak plugin JQuery untuk mempercepat proses pembuatan dimana saya tidak perlu membuat semuanya dari nol.
           </p>
-          <div class="col-lg-6">
-            <p class="text-right pull-left col-lg-6">Wordpress Theme</p>
-            <ul class="list-inline">
-              <?php $num_star = 3; ?>
-              <?php for($i = 0; $i < $num_star; $i++): ?>
-                <li><i class="icon-star icon-large"></i></li>
-              <?php endfor; ?>
-              <?php for($i = 0; $i < 5 - $num_star; $i++): ?>
-                <li><i class="icon-star-empty icon-large"></i></li>
-              <?php endfor; ?>
-            </ul>
-            <p class="text-right pull-left col-lg-6">jQuery Plugin</p>
-            <ul class="list-inline">
-              <?php $num_star = 3; ?>
-              <?php for($i = 0; $i < $num_star; $i++): ?>
-                <li><i class="icon-star icon-large"></i></li>
-              <?php endfor; ?>
-              <?php for($i = 0; $i < 5 - $num_star; $i++): ?>
-                <li><i class="icon-star-empty icon-large"></i></li>
-              <?php endfor; ?>
-            </ul>
-            <p class="text-right pull-left col-lg-6">jQuery AJAX</p>
-            <ul class="list-inline">
-              <?php $num_star = 3; ?>
-              <?php for($i = 0; $i < $num_star; $i++): ?>
-                <li><i class="icon-star icon-large"></i></li>
-              <?php endfor; ?>
-              <?php for($i = 0; $i < 5 - $num_star; $i++): ?>
-                <li><i class="icon-star-empty icon-large"></i></li>
-              <?php endfor; ?>
-            </ul>
-            <p class="text-right pull-left col-lg-6">Mobile / Responsive</p>
-            <ul class="list-inline">
-              <?php $num_star = 3; ?>
-              <?php for($i = 0; $i < $num_star; $i++): ?>
-                <li><i class="icon-star icon-large"></i></li>
-              <?php endfor; ?>
-              <?php for($i = 0; $i < 5 - $num_star; $i++): ?>
-                <li><i class="icon-star-empty icon-large"></i></li>
-              <?php endfor; ?>
-            </ul>
-          </div>
         </article>
+      </div>
+      <div class="col-lg-3">
+        <div class="row">
+            <?php 
+              $skill_list = array(
+                  array(
+                    'skill_name' => 'Wordpress Theme',
+                    'skill_level' => 3
+                  ),
+                  array(
+                    'skill_name' => 'jQuery Plugin',
+                    'skill_level' => 3
+                  ),
+                  array(
+                    'skill_name' => 'jQuery AJAX',
+                    'skill_level' => 3
+                  ),
+                  array(
+                    'skill_name' => 'Mobile/Responsive Design',
+                    'skill_level' => 3
+                  ));
+            ?>
+            <?php for($i = 0; $i < count($skill_list); $i++): ?>
+              <p class="col-lg-6"><?php echo $skill_list[$i]['skill_name']; ?></p>
+              <ul class="list-inline">
+                <?php $num_star = $skill_list[$i]['skill_level']; ?>
+                <?php for($j = 0; $j < $num_star; $j++): ?>
+                  <li><i class="icon-star"></i></li>
+                <?php endfor; ?>
+                <?php for($j = 0; $j < 5 - $num_star; $j++): ?>
+                  <li><i class="icon-star-empty"></i></li>
+                <?php endfor; ?>
+              </ul>
+            <?php endfor; ?>
+        </div>
       </div>
     </section>
     <br/>
