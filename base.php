@@ -358,7 +358,7 @@
       </div>
     </section>
     <hr>
-    <section id="contact-me" class="row">
+    <section id="contact-me" class="row hide">
       <aside class="section-title col-lg-3">
         <h2>Hubungi saya</h2>
       </aside>
