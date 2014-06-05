@@ -115,6 +115,25 @@
       </div>
     </section>
     <br/>
+    <?php 
+      $skill_list = array(
+          array(
+            'skill_name' => 'Wordpress Theme',
+            'skill_level' => 3
+          ),
+          array(
+            'skill_name' => 'jQuery Plugin',
+            'skill_level' => 3
+          ),
+          array(
+            'skill_name' => 'jQuery AJAX',
+            'skill_level' => 3
+          ),
+          array(
+            'skill_name' => 'Responsive Design',
+            'skill_level' => 3
+          ));
+    ?>
     <section id="expertise" class="row">
       <aside class="section-title col-lg-3">
         <h2>Keahlian</h2>
@@ -130,39 +149,20 @@
         </article>
       </div>
       <div class="col-lg-3">
-        <div class="row">
-            <?php 
-              $skill_list = array(
-                  array(
-                    'skill_name' => 'Wordpress Theme',
-                    'skill_level' => 3
-                  ),
-                  array(
-                    'skill_name' => 'jQuery Plugin',
-                    'skill_level' => 3
-                  ),
-                  array(
-                    'skill_name' => 'jQuery AJAX',
-                    'skill_level' => 3
-                  ),
-                  array(
-                    'skill_name' => 'Mobile/Responsive Design',
-                    'skill_level' => 3
-                  ));
-            ?>
-            <?php for($i = 0; $i < count($skill_list); $i++): ?>
-              <p class="col-lg-6"><small><?php echo $skill_list[$i]['skill_name']; ?></small></p>
-              <ul class="list-inline">
-                <?php $num_star = $skill_list[$i]['skill_level']; ?>
-                <?php for($j = 0; $j < $num_star; $j++): ?>
-                  <li><i class="icon-star"></i></li>
-                <?php endfor; ?>
-                <?php for($j = 0; $j < 5 - $num_star; $j++): ?>
-                  <li><i class="icon-star-empty"></i></li>
-                <?php endfor; ?>
-              </ul>
+        <?php for($i = 0; $i < count($skill_list); $i++): ?>
+          <div class="row">
+          <p class="col-lg-4"><small><?php echo $skill_list[$i]['skill_name']; ?></small></p>
+          <ul class="list-inline col-lg-8">
+            <?php $num_star = $skill_list[$i]['skill_level']; ?>
+            <?php for($j = 0; $j < $num_star; $j++): ?>
+              <li><i class="icon-star"></i></li>
             <?php endfor; ?>
-        </div>
+            <?php for($j = 0; $j < 5 - $num_star; $j++): ?>
+              <li><i class="icon-star-empty"></i></li>
+            <?php endfor; ?>
+          </ul>
+          </div>
+        <?php endfor; ?>
       </div>
     </section>
     <br/>
@@ -201,7 +201,7 @@
 
         $work_list[] = array(
           'url' => 'http://rr.id1945.com/wp',
-          'img_src' => '',
+          'img_src' => get_bloginfo('template_directory') . '/assets/img/tukugampang.png',
           'img_alt' => 'tuku gampang',
           'description' =>
             "<p class='text-center'>Optimized Page Speed of <a href='http://tukugampang.com'>TukuGampang.com</a></p>" .
