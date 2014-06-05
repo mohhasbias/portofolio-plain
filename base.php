@@ -151,7 +151,7 @@
                   ));
             ?>
             <?php for($i = 0; $i < count($skill_list); $i++): ?>
-              <p class="col-lg-6"><?php echo $skill_list[$i]['skill_name']; ?></p>
+              <p class="col-lg-6"><small><?php echo $skill_list[$i]['skill_name']; ?></small></p>
               <ul class="list-inline">
                 <?php $num_star = $skill_list[$i]['skill_level']; ?>
                 <?php for($j = 0; $j < $num_star; $j++): ?>
@@ -168,24 +168,44 @@
     <br/>
     <?php
         $work_list = array();
-        $work_list[0] = array(
+        $work_list[] = array(
             'url' => 'http://rr.id1945.com/wp',
             'img_src' => get_bloginfo('template_directory') . '/assets/img/murahgrosir.png',
             'img_alt' => 'murahgrosir desktop',
             'description' => 
-                "Redesign <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
-                "Desktop version (HTML, CSS, JS)<br/>" .
-                "Highlight: Lazy Load Image Slider"
+                "<p class='text-center'>Redesigned <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
+                "Desktop version<br/>" . 
+                "(HTML, CSS, JS)<br/></p>" .
+                "Highlight:</br>" .
+                "<ul>" .
+                "<li>Lazy Load Image Slider</li>" .
+                "<li>Ajax Pagination</li>" .
+                "<li>On-the-fly Image Cropping</li>" .
+                "</ul>"
           );
 
-        $work_list[1] = array(
+        $work_list[] = array(
           'url' => 'http://rr.id1945.com/wp',
-            'img_src' => get_bloginfo('template_directory') . '/assets/img/murahgrosir-smartphone.png',
-            'img_alt' => 'murahgrosir smartphone',
-            'description' => 
-                "Redesign <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
-                "Smartphone version (HTML, CSS, JS)<br/>" .
-                "Highlight: Foundation 5"
+          'img_src' => get_bloginfo('template_directory') . '/assets/img/murahgrosir-smartphone.png',
+          'img_alt' => 'murahgrosir smartphone',
+          'description' => 
+              "<p class='text-center'>Redesigned <a href='http://murahgrosir.com'>MurahGrosir.com</a><br/>" .
+              "Smartphone version<br/>". 
+              "(HTML, CSS, JS)<br/></p>" .
+              "Highlight: " .
+              "<ul>" .
+              "<li>Foundation 5 WP Accordion</li>" .
+              "<li>Foundation 5 WP Topbar</li>" .
+              "</ul>"
+          );
+
+        $work_list[] = array(
+          'url' => 'http://rr.id1945.com/wp',
+          'img_src' => '',
+          'img_alt' => 'tuku gampang',
+          'description' =>
+            "<p class='text-center'>Optimized Page Speed of <a href='http://tukugampang.com'>TukuGampang.com</a></p>" .
+            "Highligh: From <strong>E</strong> score to <strong>B</strong> score"
           );     
       ?>
     <section id="portfolio" class="row">
@@ -197,7 +217,7 @@
           <a href="<?php echo $work_list[$i]['url']; ?>" class="thumbnail">
             <img src="<?php echo $work_list[$i]['img_src']; ?>" alt="<?php echo $work_list[$i]['img_alt']; ?>"/>
           </a>
-          <div class="caption text-center">
+          <div class="caption">
             <p>
               <?php echo $work_list[$i]['description']; ?>
             </p>
