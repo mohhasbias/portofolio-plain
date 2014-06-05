@@ -169,7 +169,7 @@
     <?php
         $work_list = array();
         $work_list[] = array(
-            'url' => 'http://rr.id1945.com/wp',
+            'url' => '#',
             'img_src' => get_bloginfo('template_directory') . '/assets/img/murahgrosir.png',
             'img_alt' => 'murahgrosir desktop',
             'description' => 
@@ -185,7 +185,7 @@
           );
 
         $work_list[] = array(
-          'url' => 'http://rr.id1945.com/wp',
+          'url' => '#',
           'img_src' => get_bloginfo('template_directory') . '/assets/img/murahgrosir-smartphone.png',
           'img_alt' => 'murahgrosir smartphone',
           'description' => 
@@ -200,7 +200,7 @@
           );
 
         $work_list[] = array(
-          'url' => 'http://rr.id1945.com/wp',
+          'url' => '#',
           'img_src' => get_bloginfo('template_directory') . '/assets/img/tukugampang.png',
           'img_alt' => 'tuku gampang',
           'description' =>
@@ -214,13 +214,15 @@
       </aside>
       <?php for($i = 0; $i < count($work_list); $i++): ?>
         <article class="section-content col-lg-3">
-          <a href="<?php echo $work_list[$i]['url']; ?>" class="thumbnail">
-            <img src="<?php echo $work_list[$i]['img_src']; ?>" alt="<?php echo $work_list[$i]['img_alt']; ?>"/>
-          </a>
-          <div class="caption">
-            <p>
-              <?php echo $work_list[$i]['description']; ?>
-            </p>
+          <div class="thumbnail">
+            <a href="<?php echo $work_list[$i]['url']; ?>">
+              <img src="<?php echo $work_list[$i]['img_src']; ?>" alt="<?php echo $work_list[$i]['img_alt']; ?>"/>
+            </a>
+            <div class="caption">
+              <p>
+                <?php echo $work_list[$i]['description']; ?>
+              </p>
+            </div>
           </div>
         </article> 
       <?php endfor; ?>     
