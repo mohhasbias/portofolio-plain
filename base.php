@@ -206,7 +206,21 @@
           'description' =>
             "<p class='text-center'>Optimized Page Speed of <a href='http://tukugampang.com'>TukuGampang.com</a></p>" .
             "Highligh: From <strong>E</strong> score to <strong>B</strong> score"
-          );     
+          );  
+
+        $work_list[] = array(
+          'url' => '#',
+          'img_src' => 'http://img.youtube.com/vi/vpKx9CSbXf8/hqdefault.jpg',
+          'img_alt' => 'murahgrosir smartphone',
+          'description' => 
+              "<p class='text-center'>Coordinated the making of <a href='http://www.youtube.com/watch?v=vpKx9CSbXf8'><quote>Petualangan Citrik</quote></a><br/>" .
+              "(Coordinator, Technical Consultant)<br/></p>" .
+              "Highlight: " .
+              "<ul>" .
+              "<li>Workflow Control</li>" .
+              "<li>Iterative SDLC (Scrum Inspired SDLC)</li>" .
+              "</ul>"
+          );   
       ?>
     <section id="portfolio" class="row">
       <aside class="section-title col-lg-3">
@@ -230,7 +244,7 @@
     <br/>
     <?php
       $tuts_list = array();
-      $tuts_list[0] = array(
+      $tuts_list[] = array(
         'url' => '#',
         'img_src' => '',
         'img_alt' => 'Flash AS3 Memory Card Game',
@@ -243,12 +257,12 @@
       </aside>
       <?php for($i = 0; $i < count($tuts_list); $i++): ?>
         <article class="section-content col-lg-3">
-          <a href="<?php echo $tuts_list[0]['url']; ?>" class="thumbnail">
-          <img src="<?php echo $tuts_list[0]['img_src']; ?>" alt="<?php echo $tuts_list[0]['img_alt']; ?>"/>
+          <a href="<?php echo $tuts_list[$i]['url']; ?>" class="thumbnail">
+          <img src="<?php echo $tuts_list[$i]['img_src']; ?>" alt="<?php echo $tuts_list[$i]['img_alt']; ?>"/>
           </a>
           <div class="caption text-center">
             <p>
-              <?php echo $tuts_list[0]['description']; ?>
+              <?php echo $tuts_list[$i]['description']; ?>
             </p>  
           </div>
         </article>  
