@@ -21,6 +21,7 @@
           <li><a href="#about-me">Tentang saya</a></li>
           <li><a href="#expertise">Keahlian</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#tutorials">Tutorials</a></li>
           <li><a href="#experience">Pengalaman</a></li>
           <li><a href="#education">Pendidikan</a></li> 
           <li class="hide"><a href="#contact-me">Hubungi saya</a></li>  
@@ -83,7 +84,7 @@
             </a>
           </li>
           <li id="googleplus_link">
-            <a href="#">
+            <a href="https://plus.google.com/100050003724417817575">
               <span class="icon-stack">
                 <i class="icon-circle icon-google-plus-color icon-stack-base"></i>
                 <i class="icon-google-plus icon-light"></i>
@@ -324,8 +325,9 @@
     <?php
       $exp_list = array();
       $exp_list[] = array(
-        'period' => 'September 2013',
-        'activity' => 'Ketua Tim Kajian "Digital Classroom" untuk Direktorat Pembinaan SMK Kementrian Pendidikan dan Kebudayaan',
+        'period' => '2008 - Sekarang',
+        'activity' => 'Dosen Program Studi Teknik Multimedia Broadcasting <br/>' .
+          '(Animasi 2D, Animasi 3D, Visual Programming, Programming Multimedia)',
         'institution' => 'Politeknik Elektronika Negeri Surabaya'
         );
 
@@ -336,8 +338,20 @@
         );
 
       $exp_list[] = array(
+        'period' => 'September 2013',
+        'activity' => 'Ketua Tim Kajian "Digital Classroom" untuk Direktorat Pembinaan SMK Kementrian Pendidikan dan Kebudayaan',
+        'institution' => 'Politeknik Elektronika Negeri Surabaya'
+        );
+
+      $exp_list[] = array(
         'period' => '2012 - 2013',
         'activity' => 'Pengajar Pelatihan Dosen Akademi Komunitas',
+        'institution' => 'Politeknik Elektronika Negeri Surabaya'
+        );
+
+      $exp_list[] = array(
+        'period' => '2011 - 2013',
+        'activity' => 'Pengajar pada Pelatihan untuk Guru SMK',
         'institution' => 'Politeknik Elektronika Negeri Surabaya'
         );
 
@@ -350,19 +364,6 @@
       $exp_list[] = array(
         'period' => 'September 2012',
         'activity' => 'Pengajar pada Pelatihan International untuk Negara Ketiga sebagai Kerjasama dengan JICA',
-        'institution' => 'Politeknik Elektronika Negeri Surabaya'
-        );
-
-      $exp_list[] = array(
-        'period' => '2011 - 2013',
-        'activity' => 'Pengajar pada Pelatihan untuk Guru SMK',
-        'institution' => 'Politeknik Elektronika Negeri Surabaya'
-        );
-
-      $exp_list[] = array(
-        'period' => '2008 - Sekarang',
-        'activity' => 'Dosen Program Studi Teknik Multimedia Broadcasting <br/>' .
-          '(Animasi 2D, Animasi 3D, Visual Programming, Programming Multimedia)',
         'institution' => 'Politeknik Elektronika Negeri Surabaya'
         );
     ?>
