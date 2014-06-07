@@ -240,20 +240,30 @@
       <aside class="section-title col-lg-3">
         <h2>Portfolio</h2>
       </aside>
-      <?php for($i = 0; $i < count($work_list); $i++): ?>
-        <article class="section-content col-lg-3">
-          <div class="thumbnail">
-            <a href="<?php echo $work_list[$i]['url']; ?>">
-              <img src="<?php echo $work_list[$i]['img_src']; ?>" alt="<?php echo $work_list[$i]['img_alt']; ?>"/>
-            </a>
-            <div class="caption">
-              <p>
-                <?php echo $work_list[$i]['description']; ?>
-              </p>
-            </div>
-          </div>
-        </article> 
-      <?php endfor; ?>     
+      <div class="section-content col-lg-9">
+        <div class="row">
+          <?php
+            $num_item_per_row = 4;
+            $column_size = 12 / $num_item_per_row;
+          ?>
+          <?php for($i = 0; $i < count($work_list); $i++): ?>
+            <article class="col-lg-<?php echo $column_size;?>">
+              <div class="thumbnail">
+                <a href="<?php echo $work_list[$i]['url']; ?>">
+                  <img src="<?php echo $work_list[$i]['img_src']; ?>" alt="<?php echo $work_list[$i]['img_alt']; ?>"/>
+                </a>
+                <div class="caption">
+                  <small><?php echo $work_list[$i]['description']; ?></small>
+                </div>
+              </div>
+            </article> 
+            <?php if($i % $num_item_per_row == ($num_item_per_row-1)): ?>
+              </div>
+              <div class="row">
+            <?php endif; ?>
+          <?php endfor; ?>   
+        </div>
+      </div>    
     </section>
     <br/>
     <?php

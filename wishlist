@@ -1,3 +1,5 @@
 Rabu, 04 Juni 2014
-- tambahkan bagian tutorial
-	- implementasikan sebagai daftar posting dengan kategori tutorial
+- [x] tambahkan bagian tutorial
+	- [ ] implementasikan sebagai daftar posting dengan kategori tutorial
+
+- [ ] gunakan jumbotron sebagai header
