@@ -109,7 +109,7 @@
           </li>
           <li>
             <i class="icon-li icon-envelope icon-2x pull-left"></i>
-            <p class="text-muted">mohhasbias@gmail.com</p>
+            <p class="text-muted">mohhasbias[at]gmail.com</p>
           </li>
         </ul>
       </div>
@@ -210,7 +210,7 @@
 
         $work_list[] = array(
           'url' => '#',
-          'img_src' => 'http://img.youtube.com/vi/vpKx9CSbXf8/hqdefault.jpg',
+          'img_src' => 'http://img.youtube.com/vi/vpKx9CSbXf8/mqdefault.jpg',
           'img_alt' => 'Petualangan citrik',
           'description' => 
               "<p class='text-center'>Coordinated the making of <a href='http://www.youtube.com/watch?v=vpKx9CSbXf8'>Petualangan Citrik</a><br/>" .
@@ -224,7 +224,7 @@
 
         $work_list[] = array(
           'url' => '#',
-          'img_src' => 'http://img.youtube.com/vi/FdK0n47NSSs/hqdefault.jpg',
+          'img_src' => 'http://img.youtube.com/vi/FdK0n47NSSs/mqdefault.jpg',
           'img_alt' => 'citrik grandprix',
           'description' =>
               "<p class='text-center'>Coordinator of the making of <a href='http://www.youtube.com/watch?v=FdK0n47NSSs'>Citrik Grandprix</a><br/>" .
@@ -269,31 +269,66 @@
     <?php
       $tuts_list = array();
       $tuts_list[] = array(
-        'url' => '#',
-        'img_src' => '',
+        'url' => 'http://www.youtube.com/playlist?list=PLG7SgYmwIxMmREQy7YgYnOIvSHaPOiUcg',
+        'img_src' => 'http://img.youtube.com/vi/Q_6oG7S7vd8/mqdefault.jpg',
         'img_alt' => 'Flash AS3 Memory Card Game',
         'description' => 'Membuat memory card game menggunakan Flash AS3'
+        );
+      
+      $tuts_list[] = array(
+        'url' => 'http://www.youtube.com/playlist?list=PLG7SgYmwIxMlKOcgEBdIU-DLcbbJXMWfI',
+        'img_src' => 'http://img.youtube.com/vi/sZY97xe_GWw/mqdefault.jpg',
+        'img_alt' => 'Primitive Modeling',
+        'description' => 'Primitive modeling menggunakan Blender'
+        );
+
+      $tuts_list[] = array(
+        'url' => 'http://www.youtube.com/playlist?list=PLG7SgYmwIxMkplOGeOyXMThu5rQpanG0f',
+        'img_src' => 'http://img.youtube.com/vi/n_5hojhoYFk/mqdefault.jpg',
+        'img_alt' => 'Polygon Modeling',
+        'description' => 'Polygon Modeling menggunakan Blender'
+        );
+
+      $tuts_list[] = array(
+        'url' => 'http://www.youtube.com/playlist?list=PLG7SgYmwIxMlb1LanMqQrbN3CJdT_XqwQ',
+        'img_src' => 'http://img.youtube.com/vi/PKWd-eavKq4/mqdefault.jpg',
+        'img_alt' => 'Blender Modifiers',
+        'description' => 'Mengenal modifiers pada Blender'
         );
     ?>
     <section id="tutorials" class="row">
       <aside class="section-title col-lg-3">
         <h2>Tutorials</h2>
       </aside>
-      <?php for($i = 0; $i < count($tuts_list); $i++): ?>
-        <article class="section-content col-lg-3">
-          <a href="<?php echo $tuts_list[$i]['url']; ?>" class="thumbnail">
-          <img src="<?php echo $tuts_list[$i]['img_src']; ?>" alt="<?php echo $tuts_list[$i]['img_alt']; ?>"/>
-          </a>
-          <div class="caption text-center">
-            <p>
-              <?php echo $tuts_list[$i]['description']; ?>
-            </p>  
-          </div>
-        </article>  
-      <?php endfor; ?>
+      <div class="section-content col-lg-9">
+        <div class="row">
+          <?php for($i = 0; $i < count($tuts_list); $i++): ?>
+            <article class="col-lg-3">
+              <a href="<?php echo $tuts_list[$i]['url']; ?>" class="thumbnail">
+              <img src="<?php echo $tuts_list[$i]['img_src']; ?>" alt="<?php echo $tuts_list[$i]['img_alt']; ?>"/>
+              </a>
+              <div class="caption text-center">
+                <small>
+                  <?php echo $tuts_list[$i]['description']; ?>
+                </small>  
+              </div>
+            </article>  
+            <?php if($i % 4 == 3): ?>
+              </div>
+              <div class="row">
+            <?php endif; ?>
+          <?php endfor; ?>
+        </div>
+      </div>
     </section>
     <?php
       $exp_list = array();
+      $exp_list[] = array(
+        'period' => 'September 2013',
+        'activity' => 'Ketua Tim Kajian "Digital Classroom" untuk Direktorat Pembinaan SMK Kementrian Pendidikan dan Kebudayaan',
+        'institution' => 'Politeknik Elektronika Negeri Surabaya'
+        );
+
       $exp_list[] = array(
         'period' => 'November 2013',
         'activity' => 'Pembuatan Game Edukasi Anak-Anak "Citrik Grandprix" bekerjasama dengan CSR PLN Jawa Timur',
@@ -335,13 +370,13 @@
       <aside class="section-title col-lg-3">
         <h2>Pengalaman</h2>
       </aside>
-      <div class="section-content col-lg-9">
+      <div class="section-content col-lg-7">
         <?php for($i = 0; $i < count($exp_list); $i++): ?>
           <article class="row">
-            <div class="col-lg-2">
+            <div class="col-lg-3">
               <p><span class="label label-primary"><?php echo $exp_list[$i]['period']; ?></span></p>
             </div>
-            <header class="col-lg-10">
+            <header class="col-lg-9">
               <p>
                 <?php echo $exp_list[$i]['activity']; ?><br/>
                 <span class="text-muted"><?php echo $exp_list[$i]['institution']; ?></span>
