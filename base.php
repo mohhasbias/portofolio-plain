@@ -23,7 +23,7 @@
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#experience">Pengalaman</a></li>
           <li><a href="#education">Pendidikan</a></li> 
-          <li><a href="#contact-me">Hubungi saya</a></li>  
+          <li class="hide"><a href="#contact-me">Hubungi saya</a></li>  
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
@@ -211,16 +211,30 @@
         $work_list[] = array(
           'url' => '#',
           'img_src' => 'http://img.youtube.com/vi/vpKx9CSbXf8/hqdefault.jpg',
-          'img_alt' => 'murahgrosir smartphone',
+          'img_alt' => 'Petualangan citrik',
           'description' => 
-              "<p class='text-center'>Coordinated the making of <a href='http://www.youtube.com/watch?v=vpKx9CSbXf8'><quote>Petualangan Citrik</quote></a><br/>" .
+              "<p class='text-center'>Coordinated the making of <a href='http://www.youtube.com/watch?v=vpKx9CSbXf8'>Petualangan Citrik</a><br/>" .
               "(Coordinator, Technical Consultant)<br/></p>" .
               "Highlight: " .
               "<ul>" .
               "<li>Workflow Control</li>" .
               "<li>Iterative SDLC (Scrum Inspired SDLC)</li>" .
               "</ul>"
-          );   
+          );  
+
+        $work_list[] = array(
+          'url' => '#',
+          'img_src' => 'http://img.youtube.com/vi/FdK0n47NSSs/hqdefault.jpg',
+          'img_alt' => 'citrik grandprix',
+          'description' =>
+              "<p class='text-center'>Coordinator of the making of <a href='http://www.youtube.com/watch?v=FdK0n47NSSs'>Citrik Grandprix</a><br/>" .
+              "(Coordinator, Technical Consultant)<br/></p>" .
+              "Highlight: " .
+              "<ul>" .
+              "<li>Iterative Development</li>" .
+              "<li>Kiosk Development</li>" .
+              "</ul>"
+          ); 
       ?>
     <section id="portfolio" class="row">
       <aside class="section-title col-lg-3">
@@ -268,66 +282,63 @@
         </article>  
       <?php endfor; ?>
     </section>
+    <?php
+      $exp_list = array();
+      $exp_list[] = array(
+        'period' => 'November 2013',
+        'activity' => 'Pembuatan Game Edukasi Anak-Anak "Citrik Grandprix" bekerjasama dengan CSR PLN Jawa Timur',
+        'institution' => 'Politeknik Elektronika Negeri Surabaya'
+        );
+
+      $exp_list[] = array(
+        'period' => '2012 - 2013',
+        'activity' => 'Pengajar Pelatihan Dosen Akademi Komunitas',
+        'institution' => 'Politeknik Elektronika Negeri Surabaya'
+        );
+
+      $exp_list[] = array(
+        'period' => 'November 2012',
+        'activity' => 'Pembuatan Game Edukasi untuk Anak-Anak Berjudul "Petualangan Citrik" bekerjasama dengan CSR PLN Jawa Timur',
+        'institution' => 'Politeknik Elektronika Negeri Surabaya'
+        );
+
+      $exp_list[] = array(
+        'period' => 'September 2012',
+        'activity' => 'Pengajar pada Pelatihan International untuk Negara Ketiga sebagai Kerjasama dengan JICA',
+        'institution' => 'Politeknik Elektronika Negeri Surabaya'
+        );
+
+      $exp_list[] = array(
+        'period' => '2011 - 2013',
+        'activity' => 'Pengajar pada Pelatihan untuk Guru SMK',
+        'institution' => 'Politeknik Elektronika Negeri Surabaya'
+        );
+
+      $exp_list[] = array(
+        'period' => '2008 - Sekarang',
+        'activity' => 'Dosen Program Studi Teknik Multimedia Broadcasting <br/>' .
+          '(Animasi 2D, Animasi 3D, Visual Programming, Programming Multimedia)',
+        'institution' => 'Politeknik Elektronika Negeri Surabaya'
+        );
+    ?>
     <section id="experience" class="row">
       <aside class="section-title col-lg-3">
         <h2>Pengalaman</h2>
       </aside>
       <div class="section-content col-lg-9">
-        <article class="row">
-          <div class="col-lg-2">
-            <p><span class="label label-primary">2012 - Sekarang</span></p>
-          </div>
-          <header class="col-lg-10">
-            <p>
-              Pengajar Pelatihan Dosen Akademi Komunitas<br/>
-              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
-            </p>
-          </header>
-        </article>
-        <article class="row">
-          <div class="col-lg-2">
-            <p><span class="label label-primary">November 2012</span></p>
-          </div>
-          <header class="col-lg-10">
-            <p>
-              Pembuatan Game Edukasi untuk Anak-Anak Berjudul "Citrik" sebagai Kerjasama dengan PLN<br/>
-              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
-            </p>
-          </header>
-        </article>
-        <article class="row">
-          <div class="col-lg-2">
-            <p><span class="label label-primary">September 2012</span></p>
-          </div>
-          <header class="col-lg-10">
-            <p>
-              Pengajar pada Pelatihan International untuk Negara Ketiga sebagai Kerjasama dengan JICA<br/>
-              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
-            </p>
-          </header>
-        </article>
-        <article class="row">
-          <div class="col-lg-2">
-            <p><span class="label label-primary">2011 - Sekarang</span></p>
-          </div>
-          <header class="col-lg-10">
-            <p>
-              Pengajar pada Pelatihan untuk Guru SMK<br/>
-              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
-            </p>
-          </header>
-        </article>
-        <article class="row">
-          <div class="col-lg-2">
-            <p><span class="label label-primary">2008 - Sekarang</span></p>
-          </div>
-          <header class="col-lg-10">
-            <p>
-              Dosen Program Studi Teknologi Multimedia Broadcasting<br/>
-              <span class="text-muted">Politeknik Elektronika Negeri Surabaya</span>
-            </p>
-          </header>
-        </article>
+        <?php for($i = 0; $i < count($exp_list); $i++): ?>
+          <article class="row">
+            <div class="col-lg-2">
+              <p><span class="label label-primary"><?php echo $exp_list[$i]['period']; ?></span></p>
+            </div>
+            <header class="col-lg-10">
+              <p>
+                <?php echo $exp_list[$i]['activity']; ?><br/>
+                <span class="text-muted"><?php echo $exp_list[$i]['institution']; ?></span>
+              </p>
+            </header>
+          </article>
+        <?php endfor; ?>
       </div>
     </section>
     <br/>
