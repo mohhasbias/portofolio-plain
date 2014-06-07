@@ -91,7 +91,7 @@
             </a>
           </li>
           <li id="rss_link">
-            <a href="#">
+            <a href="<?php bloginfo('rss2_url'); ?>">
               <span class="icon-stack">
                 <i class="icon-circle icon-rss-color icon-stack-base"></i>
                 <i class="icon-rss icon-light"></i>
@@ -151,7 +151,7 @@
       <div class="col-lg-3">
         <?php for($i = 0; $i < count($skill_list); $i++): ?>
           <div class="row">
-          <p class="col-lg-4"><small><?php echo $skill_list[$i]['skill_name']; ?></small></p>
+          <span class="col-lg-4"><small><?php echo $skill_list[$i]['skill_name']; ?></small></span>
           <ul class="list-inline col-lg-8">
             <?php $num_star = $skill_list[$i]['skill_level']; ?>
             <?php for($j = 0; $j < $num_star; $j++): ?>
@@ -387,44 +387,44 @@
       </div>
     </section>
     <br/>
+    <?php 
+      $edu_list = array();
+      $edu_list[] = array(
+          'period' => '2008 - 2011',
+          'university' => 'Institut Teknologi Sepuluh Nopember',
+          'major' => 'Teknik Elektro - Telematika'
+        );
+
+      $edu_list[] = array(
+          'period' => '2003 - 2008',
+          'university' => 'Institut Teknologi Sepuluh Nopember',
+          'major' => 'Teknik Informatika'
+        );
+
+      $edu_list[] = array(
+          'period' => '2000 - 2003',
+          'university' => 'SMU Negeri 1 Jember',
+          'major' => 'Jurusan IPA'
+        );
+    ?>
     <section id="education" class="row">
       <aside class="section-title col-lg-3">
         <h2>Pendidikan</h2>
       </aside>
-      <div class="section-content col-lg-9">
-        <article class="row">
-          <div class="col-lg-2">
-            <p><span class="label label-primary">2008 - 2011</span></p>
-          </div>
-          <header class="col-lg-10">
-            <p>
-              Institut Teknologi Sepuluh Nopember<br/>
-              <span class="text-muted">Teknik Elektro - Telematika</span>
-            </p>
-          </header>
-        </article>
-        <article class="row">
-          <div class="col-lg-2">
-            <p><span class="label label-primary">2003 - 2008</span></p>
-          </div>
-          <header class="col-lg-10">
-            <p>
-              Institut Teknologi Sepuluh Nopember<br/>
-              <span class="text-muted">Teknik Informatika</span>
-            </p>
-          </header>
-        </article>
-        <article class="row">
-          <div class="col-lg-2">
-            <p><span class="label label-primary">2000 - 2003</span></p>
-          </div>
-          <header class="col-lg-10">
-            <p>
-              SMU Negeri 1 Jember<br/>
-              <span class="text-muted">Jurusan IPA</span>
-            </p>
-          </header>
-        </article>
+      <div class="section-content col-lg-7">
+        <?php for ($i = 0; $i < count($edu_list); $i++): ?>
+          <article class="row">
+            <div class="col-lg-3">
+              <p><span class="label label-primary"><?php echo $edu_list[$i]['period']; ?></span></p>
+            </div>
+            <header class="col-lg-9">
+              <p>
+                <?php echo $edu_list[$i]['university']; ?><br/>
+                <span class="text-muted"><?php echo $edu_list[$i]['major']; ?></span>
+              </p>
+            </header>
+          </article>
+        <?php endfor; ?>
       </div>
     </section>
     <hr>
