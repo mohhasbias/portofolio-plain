@@ -23,8 +23,10 @@
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#tutorials">Tutorials</a></li>
           <li><a href="#experience">Pengalaman</a></li>
-          <li><a href="#education">Pendidikan</a></li> 
-          <li class="hide"><a href="#contact-me">Hubungi saya</a></li>  
+          <li><a href="#education">Pendidikan</a></li>   
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#contact-me">Hubungi saya</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
@@ -429,25 +431,91 @@
       </div>
     </section>
     <hr>
-    <section id="contact-me" class="row hide">
+    <?php
+      $response = "";
+      function my_contact_form_generate_response($type, $message){
+        global $response;
+
+        if($type == "success"){
+          $response = "<div class='alert alert-success'>{$message}</div>";
+        } else {
+          $response = "<div class='alert alert-danger'>{$message}</div>";
+        }
+      }
+
+      // response message
+      $not_human = "Human verification incorrect.";
+      $missing_content = "Please supply all information.";
+      $email_invalid = "Email Address Invalid.";
+      $message_unsent = "Message was not sent. Try again.";
+      $message_sent = "Thanks! Your message has been sent.";
+
+      // user posted variable
+      $name = $_POST['name'];
+      $email = $_POST['email'];
+      $message = $_POST['message'];
+      $human = $_POST['message_human'];
+
+      // php mailer
+      $to = get_option('admin_email');
+      $subject = "Someone sent a message from " . get_bloginfo('name');
+      $headers = 'From: ' . $email . 'rn' .
+        'Reply-To: ' . $email . 'rn';
+
+      if(!$human == 0){
+        if($human != 2){
+          my_contact_form_generate_response("error", $not_human);
+        } else {
+          // validate email
+          if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+            my_contact_form_generate_response("error", $email_invalid);
+          }
+          else {
+            // validate presence of name and email
+            if(empty($name) || empty($message)){
+              my_contact_form_generate_response("error", $missing_content);
+            } else {
+              // send email
+              $sent = wp_mail($to, $subject, strip_tags($message), $headers);
+              if($sent){
+                my_contact_form_generate_response("success", $message_sent);
+              } else {
+                my_contact_form_generate_response('error', $message_unsent);
+              }
+            }
+          }
+        }
+      } else if ($_POST['submitted']) {
+        my_contact_form_generate_response("error", $missing_content);
+      }
+    ?>
+    <section id="contact-me" class="row">
       <aside class="section-title col-lg-3">
         <h2>Hubungi saya</h2>
       </aside>
       <div class="col-lg-6">
-        <form role="form">
-          <input type="text" class="form-control" name="name" placeholder="Nama">
+        <?php echo $response; ?>
+        <form action="<?php the_permalink(); ?>#contact-me" method="post" role="form">
+          <input type="text" class="form-control" name="name" placeholder="Nama" value="<?php echo esc_attr($_POST['name']); ?>">
           <br/>
-          <input type="email" class="form-control" name="email" placeholder="Email">
+          <input type="email" class="form-control" name="email" placeholder="Email" value="<?php echo esc_attr($_POST['email']); ?>">
           <br/>
-          <textarea rows="8" class="form-control" name="message" placeholder="Pesan"></textarea>
-          <input type="hidden" name="recipient_mail" value="mohhasbias@gmail.com">
-          </br>
+          <textarea rows="8" class="form-control" name="message" placeholder="Pesan" value="<?php echo esc_attr($_POST['message']); ?>"></textarea>
+          <br/>
+          <div class="row">
+            <div class="input-group col-lg-3">
+              <input type="text" name="message_human" class="form-control" placeholder="?">
+              <span class="input-group-addon"> + 3 = 5</span>
+            </div>
+          </div>
+          <br/>
+          <input type="hidden" name="submitted" value="1">
           <input class="btn btn-primary" name="submit" type="submit" value="KIRIM PESAN">
         </form>
       </div>
     </section>
     <br/>
-  </div><!-- /.wrap -->
+  </div><!-- /.wrap
 
   <?php get_template_part('templates/footer'); ?>
 
