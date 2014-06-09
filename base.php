@@ -459,8 +459,8 @@
       // php mailer
       $to = get_option('admin_email');
       $subject = "Someone sent a message from " . get_bloginfo('name');
-      $headers = 'From: ' . $email . 'rn' .
-        'Reply-To: ' . $email . 'rn';
+      $headers = 'From: ' . $email . '\r\n' .
+        'Reply-To: ' . $email . '\r\n';
 
       if(!$human == 0){
         if($human != 2){
